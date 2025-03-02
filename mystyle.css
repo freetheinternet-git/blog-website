@@ -1,0 +1,227 @@
+
+body {
+    background-image: url('images/orange.jpg');
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: rgb(8,7,5);
+    
+}
+
+.header{
+    color:white;
+    font-size: 7vw;
+    margin-bottom:0px;
+    text-shadow:5px 5px black;
+    animation-name: frombottom;
+    animation-duration: 3s;
+    
+}
+
+.information{
+    margin-top: 10% ;
+    margin-left: 0;
+    margin-right: 0;
+}
+.headers{
+   /* background-color: rgba(18, 0, 26, 0.283);*/
+    border-radius: 20px;
+    text-align: center;
+    font-family: "Orbitron", serif;
+
+
+}
+.About{
+    font-size:35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:white;
+    padding: 20px;
+    border-image: linear-gradient(45deg, rgba(255,134,0,1) 24%, rgba(122,0,139,1) 70%);
+    border-width:4px;
+    border-style:solid;
+    border-image-slice: 1;
+    background:none;
+    animation-name:fadein;
+    animation-duration: 2s;
+    transition: 0.75s;
+    margin-top:10px;
+}
+.About:hover{font-size:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(255, 124, 24);
+    padding: 20px;
+    border-image: linear-gradient(45deg, rgba(255,134,0,1) 24%, rgba(122,0,139,1) 70%);
+    border-width:4px;
+    border-style:solid;
+    background-color: rgba(171, 206, 213, 0.053);
+    border-image-slice: 1;
+    box-shadow: 0 0 15px #e78267;
+    margin-top:0px;
+    cursor: pointer;
+}
+.Music{
+    font-size:35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:white;
+    padding: 20px;
+    border-image: linear-gradient(315deg, rgba(255,134,0,1) 24%, rgba(122,0,139,1) 70%);
+    border-width:4px;
+    border-style:solid;
+    border-image-slice: 1;
+    background:none;
+    animation-name:fadein;
+    animation-duration: 2s;
+    transition: 0.75s;
+    margin-top:10px;
+    margin-left:30px
+}
+.Music:hover{font-size:50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:rgb(255, 124, 24);
+    padding: 20px;
+    border-image: linear-gradient(315deg, rgba(255,134,0,1) 24%, rgba(122,0,139,1) 70%);
+    border-width:4px;
+    border-style:solid;
+    background-color: rgba(171, 206, 213, 0.053);
+    border-image-slice: 1;
+    box-shadow: 0 0 15px #e78267;
+    margin-top:0px;
+    cursor: pointer;
+}
+.buttons{
+    margin-left:0;
+    margin-right: 0;
+    text-align: center;
+    margin-top:50px;
+}
+.textmusic{
+    margin-top: 300px;
+    margin-bottom: 50px;
+    font-family:"Orbitron";
+    color: white;
+}
+.arrowsdiv{
+    text-align: center;
+    
+}
+.arrows{
+    font-size: 150px;
+    color: rgba(255, 255, 255, 0);
+}
+@keyframes frombottom {
+    from {
+        margin-top:50%;
+        -webkit-text-fill-color: transparent;
+        text-shadow:none;
+    }
+    50%{
+        margin-top:10%;
+    }
+    
+    to { 
+    }
+}
+
+@keyframes fadein {
+    from {
+        
+        color: #ffffff00;
+        text-shadow:none;}
+    50%{color:#ffffff00}
+    to { 
+    }
+}
+.container{
+    text-align: center;
+    background-color: rgb(0, 82, 154);
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    width:fit-content;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px 1 #fbc900;
+    transition: 1s;
+    margin-bottom: 50px;
+
+}
+.rip{
+    object-fit: cover;
+    width: 500px;
+    height: auto;
+    transition: 1s;
+    box-sizing: border-box;
+    
+}
+.tos{
+    color: rgb(194, 165, 0);
+    text-shadow: 0px 0px 30px black;
+}
+.container:hover{
+    text-align: center;
+    background-color: rgb(0, 82, 154);
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    width:fit-content;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px 0 #fbc900;
+    margin-bottom: 50px;
+}
+.tornadodiv{
+    background-image:url(images/megadeth.jpg);
+    background-repeat:repeat-x;
+}
+
+.container2{
+    text-align: center;
+    background-color: rgb(129, 111, 68);
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    width:fit-content;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    transition: 1s;
+}
+
+.container2:hover{
+    text-align: center;
+    background-color: rgb(129, 111, 68);
+    padding: 15px;
+    text-align: center;
+    overflow: hidden;
+    width:fit-content;
+    margin: 0 auto;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 30px 0 #fbc900;
+    margin-bottom: 50px;
+}
+.joel{
+    background-image:url(images/billy.jpg);
+    background-repeat:repeat-x;
+}
+@keyframes fadeaway {
+    from{
+        color:rgba(255, 255, 255, 0)
+    }
+    30%{
+        color:white
+    }
+    to{
+        color: rgba(255, 255, 255, 0);
+    }
+}
+@media (prefers-reduced-motion: no-preference){
+    .arrows-animation{
+        animation: fadeaway 8s;
+        animation-delay: 2s;
+    }
+    }
